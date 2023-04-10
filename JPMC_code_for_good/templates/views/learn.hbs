@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+  <link href="css/learnStyle.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  {{>navbarlog}}
+  <header id="header" style="margin-top:-26px;">
+    <input type="text" id="myText" value="" style="padding:1em; margin:1em; margin-left:1.5em;width:15em;font-weight:bold;font-size:1.5em;"></input><button onclick="myFunction()" style="height:4em;width:4em;margin-left:10em; background-color:rgb(48, 189, 48)"><p style="font-weight:bold;font-size:1.5em">Go</p></button>
+    <nav id="navbar-1" class="navbar"  style="font-weight:bold; margin-left:2em;">    
+      <a href="#trimester1" id="links" >Trimester 1</a>
+      <a href="#trimester2" id="links" >Trimester 2</a>
+      <a href="#trimester3" id="links">Trimester 3</a>
+      <a href="#child" id="links" >Child Care</a> 
+    </nav>   
+  </header>
+ 
+  <main id="main">
+    <section id="trimester1">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>Trimester - 1</h2>
+      <div class="bb">
+        <div class="box" id="health">
+          <a href="trim1Health"> <img src="images/yoga.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="health">Health</label>
+        </div>
+        <div class="box" id="awareness">
+         <a href="awareness"><img src="images/awareness.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="awareness">Awareness</label>
+      </div>
+        <div class="box" id="do">
+        <a href="dons"><img src="images/dons.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+         <br>
+          <label class="subnames" for="do">Do's and Don't</label>
+        </div>
+      </div>
+      </section>
+
+    <section id="trimester2">
+        <h2>Trimester - 2</h2>
+        <div class="bb">
+         <div class="box" id="health">
+          <a href="trim1Health"> <img src="images/yoga.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="health">Health</label>
+        </div>
+        <div class="box" id="awareness">
+         <a href="awareness"><img src="images/awareness.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="awareness">Awareness</label>
+      </div>
+        <div class="box" id="do">
+        <a href="dons"><img src="images/dons.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+         <br>
+          <label class="subnames" for="do">Do's and Don't</label>
+        </div>
+        </div>
+        </section>
+
+        <section id="trimester3">
+        <h2>Trimester - 3</h2>
+        <div class="bb">
+           <div class="box" id="health">
+          <a href="trim1Health"> <img src="images/yoga.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="health">Health</label>
+        </div>
+        <div class="box" id="delivery">
+         <a href="awareness"><img src="images/del.jfif" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="awareness">  Delivery instructions</label>
+      </div>
+        <div class="box" id="do">
+        <a href="dons"><img src="images/dons.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+         <br>
+          <label class="subnames" for="do">Do's and Don't</label>
+        </div>
+        </div>
+        </section>
+        
+        <section id="child">
+          <h2>Child Care</h2>
+          <div class="bb">
+             <div class="box" id="health">
+          <a href="trim1Health"> <img src="images/yoga.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="health">Health</label>
+        </div>
+        <div class="box" id="awareness">
+         <a href="awareness"><img src="images/awareness.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+          <br>
+          <label class="subnames" for="awareness">Awareness</label>
+      </div>
+        <div class="box" id="do">
+        <a href="dons"><img src="images/dons.jpeg" alt="yoga pic" style="width:10em;height:10em;"></a>
+         <br>
+          <label class="subnames" for="do">Do's and Don't</label>
+        </div>
+          </div>
+          </section>        
+    </main>
+  <script src="https://kit.fontawesome.com/4fa2b1e08a.js" crossorigin="anonymous">
+
+  </script>
+  
+  <script> 
+  function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById(x).scrollIntoView({behavior: 'smooth'});
+    document.getElementById(x).style.transform= "scale(1.5)";
+  }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<%- include ('partials/header.ejs') -%> 
+
+<h1>Compose</h1>
+<br>
+<form action="/compose" method="post">
+    <div class="form-group">
+    <label>Title</label>
+    <input class="form-control" type="text" name="posttitle" placeholder="Write..">
+    <label>Content</label>
+    <textarea class="form-control" type="text" name="postcontent" placeholder="Write.."  rows="8" cols="150"></textarea>
+    
+</div>
+<button type="submit" class="btn btn-dark">Publish</button>
+</form>
+
+
+

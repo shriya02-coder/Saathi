@@ -1,0 +1,14 @@
+
+//installations
+
+npm i express
+npm i mongoose        
+npm install nodemon -g
+npm i hbs
+npm i bootstrap
+npm i jquery
+npm install validator
+
+//templates files
+partials : include file whose code can be reused across different webpages for eg> nav bar
+views : contains our html pages.

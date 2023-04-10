@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Comments</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/comments.css" rel="stylesheet" type="text/css">
+		<script src="js/style.js"></script>
+	</head>
+	<body>
+
+	    <nav class="navtop">
+	    	<div>
+	    		<h1 style="text-align: center;">AWW can comment out their queries here</h1>
+	    	</div>
+	    </nav>
+
+		<div class="content home">           
+			
+		</div>
+        <div class="comments"></div>
+
+<script>
+const comments_page_id = 1; // This number should be unique on every page
+fetch("comments.php?page_id=" + comments_page_id).then(response => response.text()).then(data => {
+	document.querySelector(".comments").innerHTML = data;
+	document.querySelectorAll(".comments .write_comment_btn, .comments .reply_comment_btn").forEach(element => {
+		element.onclick = event => {
+			event.preventDefault();
+			document.querySelectorAll(".comments .write_comment").forEach(element => element.style.display = 'none');
+			document.querySelector("div[data-comment-id='" + element.getAttribute("data-comment-id") + "']").style.display = 'block';
+			document.querySelector("div[data-comment-id='" + element.getAttribute("data-comment-id") + "'] input[name='name']").focus();
+		};
+	});
+	document.querySelectorAll(".comments .write_comment form").forEach(element => {
+		element.onsubmit = event => {
+			event.preventDefault();
+			fetch("comments.php?page_id=" + comments_page_id, {
+				method: 'POST',
+				body: new FormData(element)
+			}).then(response => response.text()).then(data => {
+				element.parentElement.innerHTML = data;
+			});
+		};
+	});
+});
+</script>
+<script>
+	var password;
+    var pass1 = 12345;
+    password=prompt('Enter AWW id to view page');
+    if(password==pass1)
+    alert('Correct password, Click OK to enter.');
+    else
+    {
+        window.location="index.html";
+    }
+</script>
+	</body>
+</html>
