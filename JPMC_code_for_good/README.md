@@ -4,11 +4,12 @@ A web application made to aid the AWW workers in their councelling sessions.
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
+- [Problem Statement](#problem-statement)
 - [About](#about)
 - [Features](#features)
 - [Tech-Stack](#tech-stack)
 - [Team](#team)
-  
+ 
 # Running the application:
 
 ```bash
@@ -22,6 +23,14 @@ npm install
 npm run dev
 
 ```
+
+## Problem Statement
+An Anganwadi is a type of rural child care centre in India. These Aanganwadi workers (AWW) counsel mothers.
+  *They often work long hours and face issues while providing counselling to mothers. They problem that to tackle here is -
+  *To help AWW to provide timely, contextual inputs to mothers during their visits
+  *Build an innovative solution that would work like a decision tree for AWW and improve the overall counselling
+  *Provide an ability to monitor the counselling process by FMCH
+  
 ## About
 * We propose a solution which consists of a decision tree model that aids the AWW worker to provide right counselling based on certain pre-defined parameters and conditions.
 * The model minimises data entry by providing a user-friendly interface that allows AWW workers to get the correct set of guidelines by choosing the suitable parameters. 
@@ -51,13 +60,13 @@ Database connectivity is provided to this model.
 ### Members:
 | Sr No. | Name               | E-mail                       | git-profile     |
 | -------| -------------------| -----------------------------| ----------------|
-| 1.     | Kiran Rana         | kiran.rana0128@gmail.com     |  KiranRana123|
-| 2.     | Shriya Pingulkar   |shriya.pingulkar@somaiya.edu  | shriya02-coder |                         
+| 1.     | Kiran Rana         | kiran.rana0128@gmail.com     |  KiranRana123   |
+| 2.     | Shriya Pingulkar   |shriya.pingulkar@somaiya.edu  | shriya02-coder  |                         
 | 3.     | Keya Khandelwal    |keya.khandelwal@gmail.com     | keya00          |
 | 4.     | Sreeja Srirangam   |mail2sreejahnk@gmail.com      | SreejaSrirangam |
-| 5.     | Yashwini Bhandari  |yashwinibhandari2001@gmail.com| yashwini01    |
-| 6.     | Vidita Shetty      | viditashetty9@gmail.com      | ViditaShetty  |
-| 7.     | Sakshi Sharma      |sakshish2823@gmail.com        | Sakshu28       |
+| 5.     | Yashwini Bhandari  |yashwinibhandari2001@gmail.com| yashwini01      |
+| 6.     | Vidita Shetty      | viditashetty9@gmail.com      | ViditaShetty    |
+| 7.     | Sakshi Sharma      |sakshish2823@gmail.com        | Sakshu28        |
 | 8.     | Radhika Mehrotra   |riyamehrotra01@gmail.com      | radhika25-byte  |
 
 
