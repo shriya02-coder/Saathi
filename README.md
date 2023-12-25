@@ -1,8 +1,6 @@
 
 # Saathi
 
-A web application made to aid the AWW workers in their councelling sessions.
-
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Problem Statement](#problem-statement)
