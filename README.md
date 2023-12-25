@@ -28,9 +28,9 @@ npm run dev
 ## Problem Statement
 An Anganwadi is a type of rural child care centre in India. These Aanganwadi workers (AWW) counsel mothers.
   *They often work long hours and face issues while providing counselling to mothers. They problem that to tackle here is -
-  *To help AWW to provide timely, contextual inputs to mothers during their visits
-  *Build an innovative solution that would work like a decision tree for AWW and improve the overall counselling
-  *Provide an ability to monitor the counselling process by FMCH
+  - To help AWW to provide timely, contextual inputs to mothers during their visits
+  - Build an innovative solution that would work like a decision tree for AWW and improve the overall counselling
+  - Provide an ability to monitor the counselling process by FMCH
   
 ## About
 * We propose a solution which consists of a decision tree model that aids the AWW worker to provide right counselling based on certain pre-defined parameters and conditions.
